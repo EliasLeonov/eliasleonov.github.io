@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+</head>
+<body>
+<div id="form">
+    <h2>Forms</h2>
+    <form>
+        <ul>
+            <div id="user">
+
+                <li>User</li>
+                    <ul>
+                        <li>
+                            <label for="name">Name: </label>
+                            <input type="text" placeholder="Enter your Name" id="name">
+                        </li>
+                        <li>
+                            <label for="lastname">Lastname: </label>
+                            <input type="text" placeholder="Enter your Lastname" id="lastname">
+                        </li>
+                        <li>
+                            <label for="mail">Mail: </label>
+                            <input type="text" placeholder="Enter your Mail" id="mail">
+                        </li>
+                        <li>
+                            <label for="cellphone">Cellphone Number: </label>
+                            <input type="text" placeholder="Enter your Cellphone" id="cellphone">
+                        </li>
+                    </ul>
+            </div>
+            <div id="address"></div>
+            <li>Address</li>
+                <ul>
+                    <li>
+                        <label for="street">Street: </label>
+                        <input type="text" placeholder="Enter your Street" id="street">
+                    </li>
+                    <li>
+                        <li>Province: </li>
+                        <select name="province">
+                            <option value="ciudad autonoma de buenos aires">Ciudad autonoma de Bs. As</option>
+                            <option value="buenos aires">Buenos Aires</option>
+                            <option value="cordoba">Cordoba</option>
+                            <option value="mendoza">Mendoza</option>
+                            <option value="santa fe">Santa Fe</option>
+                            <option value="chaco">Chaco</option>
+                            <option value="formosa">Formosa</option>
+                            <option value="misiones">Misiones</option>
+                            <option value="corrientes">Corrientes</option>
+                            <option value="entre rios">Entre Rios</option>
+                            <option value="la pamapa">La Pampa</option>
+                            <option value="neuquen">Neuquen</option>
+                            <option value="chubut">Chubut</option>
+                            <option value="rio negro">Rio Negro</option>
+                            <option value="tucuman">Tucuman</option>
+                            <option value="santa cruz">Santa Cruz</option>
+                            <option value="tierra del fuego">Tierra del Fuego</option>
+                            <option value="la rioja">La Rioja</option>
+                            <option value="salta">Salta</option>
+                            <option value="jujuy">Jujuy</option>
+                            <option value="santiago del estero">Santiago del Estero</option>
+                            <option value="san juan">San Juan</option>
+                            <option value="san luis">San Luis</option>
+                            <option value="catamarca">Catamarca</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="zip">ZIP Code: </label>
+                        <input type="text" placeholder="Enter your ZIP Code" id="zip">
+                    </li>
+                </ul>
+            <div id="date">
+                <li><label for="date of birth">Date of Birth: </label>
+                    <input type="text" maxlength="10" placeholder="Enter your Date of Birth" id="date of birth">
+                </li>
+            </div>
+        </ul>
+        <div id="file-upload">
+            <button class="files-upload__button" type="button">Choose File</button>
+            <span class="file-upload__label">No file selected</span>
+        </div>
+        <div id="marital status">
+            <h3>Marital Status</h3>
+            <input type="radio" id="single" name="marital status" value="single">
+            <label for="single">Single</label>
+            <input type="radio" id="married" name="marital status" value="married">
+            <label for="married">Married</label><br>
+            <input type="radio" id="widower" name="marital status" value="widower">
+            <label for="widower">Widower</label>
+            <input type="radio" id="other" name="marital status" value="other">
+            <label for="widower">Other</label>
+        </div>
+    </form>
+</div>
+<div id="table">
+    <h2>Basic HTML Table</h2>
+
+    <table>
+        <div id="header">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Mail</th>
+                <th>Phone</th>
+                <th> Actions:
+                    <td>View</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </th>
+            </tr>
+
+        </div>
+        <div id="data">
+            <tr>
+                <td>Pedro</td>
+                <td>Colunga</td>
+                <td>xx@yy.com</td>
+                <td>1153107654</td>
+                <td><i><img src="../images/icons/magnifying_glass.png" height="20" width="20"></i></td>
+                <td><i><img src="../images/icons/edit.png" height="20" width="20"></i></td>
+                <td><i><img src="../images/icons/delete.png" height="20" width="20"></i></td>
+            </tr>
+            <tr>
+                <td>Agustin</td>
+                <td>Lopez Gabeiras</td>
+                <td>yy@xx.com</td>
+                <td>1153107654</td>
+                <td><i><img src="../images/icons/magnifying_glass.png" height="20" width="20"></i></td>
+                <td><i><img src="../images/icons/edit.png" height="20" width="20"></i></td>
+                <td><i><img src="../images/icons/delete.png" height="20" width="20"></i></td>
+            </tr>
+        </div>
+    </table>
+</div>
+</body>
+</html>
